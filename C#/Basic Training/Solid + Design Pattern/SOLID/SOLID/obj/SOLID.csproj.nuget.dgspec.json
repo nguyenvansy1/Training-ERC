@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pascalia Asia\\C#\\Basic Training\\Solid\\SOLID\\SOLID\\SOLID.csproj": {}
+    "D:\\Training ERC\\C#\\Basic Training\\Solid + Design Pattern\\SOLID\\SOLID\\SOLID.csproj": {}
   },
   "projects": {
-    "D:\\Pascalia Asia\\C#\\Basic Training\\Solid\\SOLID\\SOLID\\SOLID.csproj": {
+    "D:\\Training ERC\\C#\\Basic Training\\Solid + Design Pattern\\SOLID\\SOLID\\SOLID.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pascalia Asia\\C#\\Basic Training\\Solid\\SOLID\\SOLID\\SOLID.csproj",
+        "projectUniqueName": "D:\\Training ERC\\C#\\Basic Training\\Solid + Design Pattern\\SOLID\\SOLID\\SOLID.csproj",
         "projectName": "SOLID",
-        "projectPath": "D:\\Pascalia Asia\\C#\\Basic Training\\Solid\\SOLID\\SOLID\\SOLID.csproj",
+        "projectPath": "D:\\Training ERC\\C#\\Basic Training\\Solid + Design Pattern\\SOLID\\SOLID\\SOLID.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\Pascalia Asia\\C#\\Basic Training\\Solid\\SOLID\\SOLID\\obj\\",
+        "outputPath": "D:\\Training ERC\\C#\\Basic Training\\Solid + Design Pattern\\SOLID\\SOLID\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

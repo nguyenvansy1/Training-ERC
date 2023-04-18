@@ -26,12 +26,12 @@
 }
 
 class Singtelon {
-    static void Main(string[] args)
-    {
-        Logger logger = Logger.Instance;
-        logger.Log("A");
+    //static void Main(string[] args)
+    //{
+    //    Logger logger = Logger.Instance;
+    //    logger.Log("A");
 
-    }
+    //}
 
 }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pascalia Asia\\C#\\Basic Training\\06_Basic_assignment.md\\06_Basic_assignment.md\\06_Basic_assignment.md.csproj": {}
+    "D:\\Training ERC\\C#\\Basic Training\\C# Basic\\06_Basic_assignment.md\\06_Basic_assignment.md\\06_Basic_assignment.md.csproj": {}
   },
   "projects": {
-    "D:\\Pascalia Asia\\C#\\Basic Training\\06_Basic_assignment.md\\06_Basic_assignment.md\\06_Basic_assignment.md.csproj": {
+    "D:\\Training ERC\\C#\\Basic Training\\C# Basic\\06_Basic_assignment.md\\06_Basic_assignment.md\\06_Basic_assignment.md.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pascalia Asia\\C#\\Basic Training\\06_Basic_assignment.md\\06_Basic_assignment.md\\06_Basic_assignment.md.csproj",
+        "projectUniqueName": "D:\\Training ERC\\C#\\Basic Training\\C# Basic\\06_Basic_assignment.md\\06_Basic_assignment.md\\06_Basic_assignment.md.csproj",
         "projectName": "06_Basic_assignment.md",
-        "projectPath": "D:\\Pascalia Asia\\C#\\Basic Training\\06_Basic_assignment.md\\06_Basic_assignment.md\\06_Basic_assignment.md.csproj",
+        "projectPath": "D:\\Training ERC\\C#\\Basic Training\\C# Basic\\06_Basic_assignment.md\\06_Basic_assignment.md\\06_Basic_assignment.md.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\Pascalia Asia\\C#\\Basic Training\\06_Basic_assignment.md\\06_Basic_assignment.md\\obj\\",
+        "outputPath": "D:\\Training ERC\\C#\\Basic Training\\C# Basic\\06_Basic_assignment.md\\06_Basic_assignment.md\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

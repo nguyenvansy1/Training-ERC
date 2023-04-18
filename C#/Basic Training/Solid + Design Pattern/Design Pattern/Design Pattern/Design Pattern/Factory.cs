@@ -37,15 +37,15 @@ class LoggerManager
 
 class Factory
 {
-    static void Main(string[] args)
-    {
-        string outputMsg = "This is an error message";
-        LoggerManager loggerManager = new LoggerManager();
+    //static void Main(string[] args)
+    //{
+    //    string outputMsg = "This is an error message";
+    //    LoggerManager loggerManager = new LoggerManager();
 
-        ILogger logger = loggerManager.GetLog("file");
-        logger.Log(outputMsg);
+    //    ILogger logger = loggerManager.GetLog("file");
+    //    logger.Log(outputMsg);
 
-        logger = loggerManager.GetLog("std");
-        logger.Log(outputMsg);
-    }
+    //    logger = loggerManager.GetLog("std");
+    //    logger.Log(outputMsg);
+    //}
 }
