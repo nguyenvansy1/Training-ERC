@@ -1,0 +1,15 @@
+D:\Pascalia Asia\C#\Basic Training\Solid\Design Pattern\Design Pattern\Design Pattern\bin\Debug\net6.0\Design Pattern.exe
+D:\Pascalia Asia\C#\Basic Training\Solid\Design Pattern\Design Pattern\Design Pattern\bin\Debug\net6.0\Design Pattern.deps.json
+D:\Pascalia Asia\C#\Basic Training\Solid\Design Pattern\Design Pattern\Design Pattern\bin\Debug\net6.0\Design Pattern.runtimeconfig.json
+D:\Pascalia Asia\C#\Basic Training\Solid\Design Pattern\Design Pattern\Design Pattern\bin\Debug\net6.0\Design Pattern.dll
+D:\Pascalia Asia\C#\Basic Training\Solid\Design Pattern\Design Pattern\Design Pattern\bin\Debug\net6.0\Design Pattern.pdb
+D:\Pascalia Asia\C#\Basic Training\Solid\Design Pattern\Design Pattern\Design Pattern\obj\Debug\net6.0\Design Pattern.csproj.AssemblyReference.cache
+D:\Pascalia Asia\C#\Basic Training\Solid\Design Pattern\Design Pattern\Design Pattern\obj\Debug\net6.0\Design Pattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pascalia Asia\C#\Basic Training\Solid\Design Pattern\Design Pattern\Design Pattern\obj\Debug\net6.0\Design Pattern.AssemblyInfoInputs.cache
+D:\Pascalia Asia\C#\Basic Training\Solid\Design Pattern\Design Pattern\Design Pattern\obj\Debug\net6.0\Design Pattern.AssemblyInfo.cs
+D:\Pascalia Asia\C#\Basic Training\Solid\Design Pattern\Design Pattern\Design Pattern\obj\Debug\net6.0\Design Pattern.csproj.CoreCompileInputs.cache
+D:\Pascalia Asia\C#\Basic Training\Solid\Design Pattern\Design Pattern\Design Pattern\obj\Debug\net6.0\Design Pattern.dll
+D:\Pascalia Asia\C#\Basic Training\Solid\Design Pattern\Design Pattern\Design Pattern\obj\Debug\net6.0\refint\Design Pattern.dll
+D:\Pascalia Asia\C#\Basic Training\Solid\Design Pattern\Design Pattern\Design Pattern\obj\Debug\net6.0\Design Pattern.pdb
+D:\Pascalia Asia\C#\Basic Training\Solid\Design Pattern\Design Pattern\Design Pattern\obj\Debug\net6.0\Design Pattern.genruntimeconfig.cache
+D:\Pascalia Asia\C#\Basic Training\Solid\Design Pattern\Design Pattern\Design Pattern\obj\Debug\net6.0\ref\Design Pattern.dll
