@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pascalia Asia\\C#\\Advance Training\\RazorPagesPizza\\RazorPagesPizza.csproj",
+      "projectUniqueName": "D:\\Training ERC\\C#\\Advance Training\\.NET\\RazorPagesPizza\\RazorPagesPizza.csproj",
       "projectName": "RazorPagesPizza",
-      "projectPath": "D:\\Pascalia Asia\\C#\\Advance Training\\RazorPagesPizza\\RazorPagesPizza.csproj",
+      "projectPath": "D:\\Training ERC\\C#\\Advance Training\\.NET\\RazorPagesPizza\\RazorPagesPizza.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\Pascalia Asia\\C#\\Advance Training\\RazorPagesPizza\\obj\\",
+      "outputPath": "D:\\Training ERC\\C#\\Advance Training\\.NET\\RazorPagesPizza\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

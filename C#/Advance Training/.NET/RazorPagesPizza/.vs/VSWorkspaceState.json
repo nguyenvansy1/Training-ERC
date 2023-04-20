@@ -1,12 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Models",
     "\\Pages",
     "\\Pages\\Shared",
-    "\\wwwroot\\css",
-    "\\wwwroot\\js",
-    "\\wwwroot\\lib"
+    "\\Services"
   ],
-  "SelectedNode": "\\Pages\\Index.cshtml.cs",
+  "SelectedNode": "\\Services\\PizzaService.cs",
   "PreviewInSolutionExplorer": false
 }
