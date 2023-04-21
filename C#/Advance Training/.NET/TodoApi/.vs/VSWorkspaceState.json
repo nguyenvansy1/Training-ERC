@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\TodoApi",
+    "\\TodoApi\\Controllers",
     "\\TodoApi\\Models"
   ],
-  "SelectedNode": "\\TodoApi.sln",
+  "SelectedNode": "\\TodoApi\\Controllers\\TodoItemsController.cs",
   "PreviewInSolutionExplorer": false
 }

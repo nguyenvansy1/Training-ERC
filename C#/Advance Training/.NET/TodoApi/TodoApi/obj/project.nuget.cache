@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "czHeUD5oy6DZKP2s2gehvKe9W9zpEkZ+61ujkaIPS4rByemvoIh6eQStFAmccYkrqTFEOSdzksriw4ffYosqkw==",
+  "dgSpecHash": "F0ZwAtkfdnn3/xbgzKWyjybeiHL349ld42ccB0Cup+cXsr6B6p1XphurBFy9UFJmg4uEzC/GNOrgFxG0HnlUAw==",
   "success": true,
-  "projectFilePath": "D:\\Pascalia Asia\\C#\\Advance Training\\TodoApi\\TodoApi\\TodoApi.csproj",
+  "projectFilePath": "D:\\Training ERC\\C#\\Advance Training\\.NET\\TodoApi\\TodoApi\\TodoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

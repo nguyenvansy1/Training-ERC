@@ -10115,11 +10115,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pascalia Asia\\C#\\Advance Training\\TodoApi\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "D:\\Training ERC\\C#\\Advance Training\\.NET\\TodoApi\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "D:\\Pascalia Asia\\C#\\Advance Training\\TodoApi\\TodoApi\\TodoApi.csproj",
+      "projectPath": "D:\\Training ERC\\C#\\Advance Training\\.NET\\TodoApi\\TodoApi\\TodoApi.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\Pascalia Asia\\C#\\Advance Training\\TodoApi\\TodoApi\\obj\\",
+      "outputPath": "D:\\Training ERC\\C#\\Advance Training\\.NET\\TodoApi\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
