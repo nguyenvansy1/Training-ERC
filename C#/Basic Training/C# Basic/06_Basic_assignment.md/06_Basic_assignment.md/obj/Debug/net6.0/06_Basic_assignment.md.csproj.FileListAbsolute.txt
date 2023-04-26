@@ -1,0 +1,15 @@
+D:\Pascalia Asia\C#\Basic Training\06_Basic_assignment.md\06_Basic_assignment.md\bin\Debug\net6.0\06_Basic_assignment.md.exe
+D:\Pascalia Asia\C#\Basic Training\06_Basic_assignment.md\06_Basic_assignment.md\bin\Debug\net6.0\06_Basic_assignment.md.deps.json
+D:\Pascalia Asia\C#\Basic Training\06_Basic_assignment.md\06_Basic_assignment.md\bin\Debug\net6.0\06_Basic_assignment.md.runtimeconfig.json
+D:\Pascalia Asia\C#\Basic Training\06_Basic_assignment.md\06_Basic_assignment.md\bin\Debug\net6.0\06_Basic_assignment.md.dll
+D:\Pascalia Asia\C#\Basic Training\06_Basic_assignment.md\06_Basic_assignment.md\bin\Debug\net6.0\06_Basic_assignment.md.pdb
+D:\Pascalia Asia\C#\Basic Training\06_Basic_assignment.md\06_Basic_assignment.md\obj\Debug\net6.0\06_Basic_assignment.md.csproj.AssemblyReference.cache
+D:\Pascalia Asia\C#\Basic Training\06_Basic_assignment.md\06_Basic_assignment.md\obj\Debug\net6.0\06_Basic_assignment.md.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pascalia Asia\C#\Basic Training\06_Basic_assignment.md\06_Basic_assignment.md\obj\Debug\net6.0\06_Basic_assignment.md.AssemblyInfoInputs.cache
+D:\Pascalia Asia\C#\Basic Training\06_Basic_assignment.md\06_Basic_assignment.md\obj\Debug\net6.0\06_Basic_assignment.md.AssemblyInfo.cs
+D:\Pascalia Asia\C#\Basic Training\06_Basic_assignment.md\06_Basic_assignment.md\obj\Debug\net6.0\06_Basic_assignment.md.csproj.CoreCompileInputs.cache
+D:\Pascalia Asia\C#\Basic Training\06_Basic_assignment.md\06_Basic_assignment.md\obj\Debug\net6.0\06_Basic_assignment.md.dll
+D:\Pascalia Asia\C#\Basic Training\06_Basic_assignment.md\06_Basic_assignment.md\obj\Debug\net6.0\refint\06_Basic_assignment.md.dll
+D:\Pascalia Asia\C#\Basic Training\06_Basic_assignment.md\06_Basic_assignment.md\obj\Debug\net6.0\06_Basic_assignment.md.pdb
+D:\Pascalia Asia\C#\Basic Training\06_Basic_assignment.md\06_Basic_assignment.md\obj\Debug\net6.0\06_Basic_assignment.md.genruntimeconfig.cache
+D:\Pascalia Asia\C#\Basic Training\06_Basic_assignment.md\06_Basic_assignment.md\obj\Debug\net6.0\ref\06_Basic_assignment.md.dll

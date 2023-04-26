@@ -1,0 +1,15 @@
+D:\Pascalia Asia\C#\Basic Training\04_Methods.md\04_Methods.md\bin\Debug\net6.0\04_Methods.md.exe
+D:\Pascalia Asia\C#\Basic Training\04_Methods.md\04_Methods.md\bin\Debug\net6.0\04_Methods.md.deps.json
+D:\Pascalia Asia\C#\Basic Training\04_Methods.md\04_Methods.md\bin\Debug\net6.0\04_Methods.md.runtimeconfig.json
+D:\Pascalia Asia\C#\Basic Training\04_Methods.md\04_Methods.md\bin\Debug\net6.0\04_Methods.md.dll
+D:\Pascalia Asia\C#\Basic Training\04_Methods.md\04_Methods.md\bin\Debug\net6.0\04_Methods.md.pdb
+D:\Pascalia Asia\C#\Basic Training\04_Methods.md\04_Methods.md\obj\Debug\net6.0\04_Methods.md.csproj.AssemblyReference.cache
+D:\Pascalia Asia\C#\Basic Training\04_Methods.md\04_Methods.md\obj\Debug\net6.0\04_Methods.md.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pascalia Asia\C#\Basic Training\04_Methods.md\04_Methods.md\obj\Debug\net6.0\04_Methods.md.AssemblyInfoInputs.cache
+D:\Pascalia Asia\C#\Basic Training\04_Methods.md\04_Methods.md\obj\Debug\net6.0\04_Methods.md.AssemblyInfo.cs
+D:\Pascalia Asia\C#\Basic Training\04_Methods.md\04_Methods.md\obj\Debug\net6.0\04_Methods.md.csproj.CoreCompileInputs.cache
+D:\Pascalia Asia\C#\Basic Training\04_Methods.md\04_Methods.md\obj\Debug\net6.0\04_Methods.md.dll
+D:\Pascalia Asia\C#\Basic Training\04_Methods.md\04_Methods.md\obj\Debug\net6.0\refint\04_Methods.md.dll
+D:\Pascalia Asia\C#\Basic Training\04_Methods.md\04_Methods.md\obj\Debug\net6.0\04_Methods.md.pdb
+D:\Pascalia Asia\C#\Basic Training\04_Methods.md\04_Methods.md\obj\Debug\net6.0\04_Methods.md.genruntimeconfig.cache
+D:\Pascalia Asia\C#\Basic Training\04_Methods.md\04_Methods.md\obj\Debug\net6.0\ref\04_Methods.md.dll
