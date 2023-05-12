@@ -12,7 +12,7 @@ export class TodoListComponent implements OnInit {
   todoList: Todo[] = [];
   constructor(private todoService: TodoService,  private fb: FormBuilder, private router: Router) { }
   formCreate: FormGroup;
-  taskSelect: Todo ;
+  taskSelect: number ;
   ngOnInit(): void {
     this.getListToDo();
     this.formCreate = this.fb.group(
@@ -27,7 +27,6 @@ export class TodoListComponent implements OnInit {
   getListToDo() {
      this.todoService.getAllToDo().subscribe(data => {
       this.todoList = data;
-      console.log(data)
      })
   }
    
@@ -49,27 +48,33 @@ export class TodoListComponent implements OnInit {
   }
 
   selectTask(todo: Todo) {
-      this.taskSelect = todo;
+      this.taskSelect = todo.id;
   }
 
   moveTop() {
-    const index = this.todoList.findIndex(item => item === this.taskSelect);
-    if (index !== -1) {
-      this.todoList.splice(index, 1);
-      this.todoList.unshift(this.taskSelect);
-    }
+    console.log(this.taskSelect)
+    this.todoService.moveTop(this.taskSelect).subscribe(res => {
+      this.getListToDo();
+      this.taskSelect = res.id
+    }, (error) => {
+      console.log(error)
+     })
   }
 
   moveDown() {
-    const index = this.todoList.findIndex(item => item === this.taskSelect);
-    if (index !== -1 && index !== this.todoList.length - 1) {
-      this.todoList.splice(index, 1);
-      this.todoList.push(this.taskSelect);
-    }
+    console.log(this.taskSelect)
+    this.todoService.moveDown(this.taskSelect).subscribe(res => {
+      this.getListToDo();
+      this.taskSelect = res.id
+    }, (error) => {
+      console.log(error)
+     })
   }
 
   redirectToDoDetail(id: number) {
-    console.log("1")
     this.router.navigateByUrl('/todo/' + id);
+  }
+  checkSelect(id : number ) {
+    return this.taskSelect == id;
   }
 }

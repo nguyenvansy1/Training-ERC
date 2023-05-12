@@ -16,13 +16,13 @@
     <thead>
         <tr>
             <th scope="col">STT</th>
-            <th scope="col">Name</th>
+            <th  scope="col">Name</th>
             <th scope="col">Delete</th>
         </tr>
     </thead>
     <tr *ngFor="let todo of todoList; let i = index">
         <td>{{i+1}}</td>
-        <td (dblclick)="redirectToDoDetail(todo?.id)" (click)="selectTask(todo)">{{todo?.name}}</td>
+        <td [ngClass]="checkSelect(todo.id) ? 'active-task' : ''" (dblclick)="redirectToDoDetail(todo?.id)" (click)="selectTask(todo)">{{todo?.name}}</td>
         <td>
             <button class="btn btn-danger" (click)="deleteToDo(todo?.id)">Delete</button>
         </td>

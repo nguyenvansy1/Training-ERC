@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Assignment2.Models;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Assignment2.Controllers
 {
@@ -78,6 +79,61 @@ namespace Assignment2.Controllers
             }
 
             return NoContent();
+        }
+
+
+        [HttpPut("down/{id}")]
+        public async Task<IActionResult> MoveDown(int id)
+        {
+            var current = await _context.Todos.FindAsync(id);
+            var next = await _context.Todos.FirstOrDefaultAsync(i => i.Id > id);
+            var first = await _context.Todos.FirstOrDefaultAsync();
+         
+                if (next != null)
+                {
+                    string tempName = current.Name;
+                    string tempDescription = current.Description;
+                    current.Name = next.Name;
+                    current.Description = next.Description;
+                    next.Name = tempName;
+                    next.Description = tempDescription;
+                    try
+                    {
+                        await _context.SaveChangesAsync();
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Error: {ex.Message}");
+                        throw;
+                    }
+                }
+            return Ok(new { id = next.Id });
+        }
+
+
+        [HttpPut("top/{id}")]
+        public async Task<IActionResult> MoveTop(int id)
+        {
+            var current = await _context.Todos.FindAsync(id);
+            var first = await _context.Todos.FirstOrDefaultAsync();
+          
+                string tempName = current.Name;
+                string tempDescription = current.Description;
+                current.Name = first.Name;
+                current.Description = first.Description;
+                first.Name = tempName;
+                first.Description = tempDescription;
+                try
+                {
+                    await _context.SaveChangesAsync();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error: {ex.Message}");
+                throw;
+            }
+
+            return Ok(new { id = first.Id });
         }
 
         // POST: api/Todoes

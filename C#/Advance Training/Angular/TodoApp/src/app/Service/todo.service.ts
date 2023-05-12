@@ -30,4 +30,13 @@ export class TodoService {
     return this.httpClient.get<Todo>(this.TODO_URL+ '/' + id);
   }
 
+  public moveTop(id: number): Observable<any> {
+    return this.httpClient.put<any>(this.TODO_URL+ '/top/' + id , id);
+  }
+
+
+  public moveDown(id: number): Observable<any> {
+    return this.httpClient.put<any>(this.TODO_URL+ '/down/' + id , id);
+  }
+
 }
