@@ -1,0 +1,21 @@
+<h1>TODO List </h1>
+<app-todo-add (newTodo)="addTodoToList($event)"></app-todo-add>
+<table class="table mt-5">
+    <thead>
+        <tr>
+            <th scope="col">STT</th>
+            <th  scope="col">Name</th>
+            <th scope="col">Delete</th>
+        </tr>
+    </thead>
+    <tr *ngFor="let todo of todoList; let i = index">
+        <td>{{i+1}}</td>
+        <td [ngClass]="checkSelect(todo.id) ? 'active-task' : ''" (dblclick)="redirectToDoDetail(todo?.id)" (click)="selectTask(todo)">{{todo?.name}}</td>
+        <td>
+            <button class="btn btn-danger" (click)="deleteToDo(todo?.id)">Delete</button>
+        </td>
+    </tr>
+</table>
+
+<button (click)="moveTop()" class="btn btn-primary">Top</button>
+<button (click)="moveDown()" class="btn btn-primary " style="margin-right: 50px;">Down</button>

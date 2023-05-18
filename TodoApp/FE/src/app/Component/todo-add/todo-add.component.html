@@ -1,0 +1,13 @@
+<form [formGroup]="formCreate" (ngSubmit)="addTodo(formCreate)" class="card p-3">
+    <div class="form-group mb-0 align-middle">
+        <label>Name</label>
+        <input formControlName="name" type="text" class="mr-5">
+        <small *ngIf="(formCreate.controls.name.dirty || formCreate.controls.name.touched) && formCreate.controls.name.errors?.required"
+        style="color: red;margin-left: 50px;">Name can not be left blank </small>
+        <label>Description</label>
+        <input formControlName="description" type="text" class="mr-5">
+        <small *ngIf="(formCreate.controls.description.dirty || formCreate.controls.description.touched) && formCreate.controls.description.errors?.required"
+        style="color: red;margin-left: 50px;">Description can not be left blank </small>
+        <button type="submit" [disabled]="formCreate.invalid" class="btn btn-primary">Add</button>
+    </div>
+</form>
