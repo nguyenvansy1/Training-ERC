@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Assignment2.Models;
-using static System.Net.Mime.MediaTypeNames;
 using Assignment2.Service;
 
 namespace Assignment2.Controllers
@@ -15,10 +10,11 @@ namespace Assignment2.Controllers
     [ApiController]
     public class TodoesController : ControllerBase
     {
-        private readonly ToDoContext _context;
+
         private readonly IToDoService _toDoService;
-        public TodoesController(ToDoContext context, IToDoService toDoService)
-        {
+        private readonly ToDoContext _context;
+    
+        public TodoesController(ToDoContext context, IToDoService toDoService) { 
             _context = context;
             _toDoService = toDoService;
         }
@@ -88,7 +84,7 @@ namespace Assignment2.Controllers
         public async Task<IActionResult> MoveDown(int id)
         {
             var current = await _context.Todos.FindAsync(id);
-            var next = await _toDoService.GetNextTodoByIdAsync(id); ;
+            var next = await _context.Todos.FirstOrDefaultAsync(i => i.Id > id); 
         
          
                 if (next != null)
@@ -117,7 +113,7 @@ namespace Assignment2.Controllers
         public async Task<IActionResult> MoveTop(int id)
         {
             var current = await _context.Todos.FindAsync(id);
-            var first = await _toDoService.GetFirstTodoByIdAsync(id);
+            var first = await _context.Todos.FirstOrDefaultAsync();
 
             string tempName = current.Name;
                 string tempDescription = current.Description;

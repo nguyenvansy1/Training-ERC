@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Assignment2.Models;
+using Assignment2.Service;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add Cors
@@ -15,7 +17,7 @@ builder.Services.AddCors(options =>
 
 // Add services to the container.
 builder.Services.AddControllers();
-
+builder.Services.AddScoped<IToDoService, ToDoService>();
 // Add database context
 builder.Services.AddDbContextPool<ToDoContext>(
     (serviceProvider, options) => options.UseMySql(
@@ -25,6 +27,8 @@ builder.Services.AddDbContextPool<ToDoContext>(
 );
 
 // Add Swagger/OpenAPI services
+
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

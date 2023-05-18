@@ -28,23 +28,16 @@ export class TodoListComponent implements OnInit {
     this.todoService.addToDo(todo).subscribe(data => {
       this.getListToDo();
     }, (error) => {
-      console.log(error)
+      
     })
   }
 
-  // addTodo(addForm: FormGroup) {
-  //   this.todoService.addToDo(addForm.value).subscribe(data => {
-  //     this.getListToDo();
-  //   }, (error) => {
-  //     console.log(error)
-  //   })
-  // }
 
   deleteToDo(id: number) {
     this.todoService.deleteTodo(id).subscribe(data => {
       this.getListToDo();
     }, (error) => {
-      console.log(error)
+     
     })
   }
 
@@ -53,22 +46,22 @@ export class TodoListComponent implements OnInit {
   }
 
   moveTop() {
-    console.log(this.taskSelect)
+   
     this.todoService.moveTop(this.taskSelect).subscribe(res => {
       this.getListToDo();
       this.taskSelect = res.id
     }, (error) => {
-      console.log(error)
+      
     })
   }
 
   moveDown() {
-    console.log(this.taskSelect)
+   
     this.todoService.moveDown(this.taskSelect).subscribe(res => {
       this.getListToDo();
       this.taskSelect = res.id
     }, (error) => {
-      console.log(error)
+     
     })
   }
 
